@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+nav {
+    background-color: #FF69B4; /* Warna latar belakang pink */
+    padding: 20px 0; /* Padding atas dan bawah */
+    text-align: right; /* Posisikan tautan ke kanan */
+    position: relative;
+    z-index: 1; /* Pastikan navbar berada di atas SVG */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px 20px;
+    margin: 0 10px; 
+}
+
+a:hover {
+    background-color: #FF1493; 
+    border-radius: 10px;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+#home {
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.home-content img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.home-content h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.home-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.home-content img{
+    margin-top: 40px;
+}
+
+/* style about */
+
+#about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about .about-content .about-text {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    display: flex;
+}
+
+
+.about-content {
+    display: flex;
+    justify-content: space-between; /* Menyeimbangkan ruang di antara kedua kolom */
+}
+
+.about-text {
+    width: 48%; /* Lebar masing-masing kolom */
+}
+
+.left-column {
+    order: 1; /* Menentukan urutan kolom, dalam hal ini kolom kiri */
+}
+
+.right-column {
+    order: 2; /* Menentukan urutan kolom, dalam hal ini kolom kanan */
+}
+
+
+#about .about-content .about-text p {
+    margin-bottom: 20px;
+}
+
+/* style experience */
+#experience {
+   height: 100vh;
+   margin-top: 200px;
+}
+#experience h1 {
+   text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.experience-card {
+   margin: 10px;
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.experience-card img {
+    width: 100%;
+    height: auto;
+}
+
+.experience-info {
+    padding: 20px;
+}
+
+.experience-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.experience-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* style contact */
+
+#contact {
+    margin-top: 340px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #contact h2 {
+      text-align: center;
+     
+  }
+  h2 {
+    color: #333;
+  }
+  form {
+    width: 400px;
+    padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  textarea {
+    height: 150px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF69B4;
+    color: white;
+    cursor: pointer;
+  }
+
+
+
+    /* style footer */
+
+  
+      
+      .footer {
+        background-color: #FF69B4;
+        color: #fff;
+        padding: 30px 0;
+        margin-top: 70px;
+      }
+      
+      .footer-content h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      
+      .footer-content p {
+        margin: 0;
+        font-size: 16px;
+      }
+      
+      .social-icons {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .social-icons li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      .social-icons li:last-child {
+        margin-right: 0;
+      }
+      
+      .social-icons a {
+        color: #fff;
+        font-size: 24px;
+      }
+      
+      .footer-bottom {
+        background-color: #be3636;
+        text-align: center;
+        padding: 10px 0;
+      }
+      
+      .footer-bottom p {
+        margin: 0;
+      }
+
+    .pengalaman{
+      margin-top: 100px;
+    }
